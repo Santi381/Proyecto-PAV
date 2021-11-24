@@ -23,7 +23,7 @@ namespace ForrajeriaProyecto.RepositoriosDB
         {
 
             // string_conexion = "Data Source=DESKTOP-LBVUJ09\\SQLEXPRESS;Initial Catalog=BTSPAVI3K220201;Integrated Security=True;MultipleActiveResultSets=True";
-            string_conexion = "Data Source=200.69.137.167,11333;Initial Catalog=PAV-3K2-2021-5;User ID=PAV_3K2_2021_5;Password=PAV_3K2_2021_5";
+            string_conexion = "Data Source=DESKTOP-QFH50D0\\SQLEXPRESS;Initial Catalog=PAV-3K2-2021-5;Integrated Security=True;Persist Security Info=False;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=False";
         }
 
         public static DBHelper GetDBHelper()
