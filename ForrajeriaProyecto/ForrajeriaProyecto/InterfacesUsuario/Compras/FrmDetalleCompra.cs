@@ -48,7 +48,7 @@ namespace ForrajeriaProyecto.InterfacesUsuario.Compras
                 var fila = new string[]
                 {
                     detalleCompra.Id.ToString(),
-                    detalleCompra.Producto.Nombre.ToString(),
+                    detalleCompra.Producto.Descripcion.ToString(),
                     detalleCompra.PrecioUnitario.ToString(System.Globalization.CultureInfo.InvariantCulture),
                     detalleCompra.Cantidad.ToString(),
                     (detalleCompra.PrecioUnitario * detalleCompra.Cantidad).ToString(System.Globalization.CultureInfo.InvariantCulture)

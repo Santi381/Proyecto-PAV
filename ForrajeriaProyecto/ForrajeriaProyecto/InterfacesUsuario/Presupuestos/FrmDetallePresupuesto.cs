@@ -42,7 +42,7 @@ namespace ForrajeriaProyecto.InterfacesUsuario.Presupuestos
                 var fila = new string[]
                 {
                     detallePresupuesto.Id.ToString(),
-                    detallePresupuesto.Producto.Nombre.ToString(),
+                    detallePresupuesto.Producto.Descripcion.ToString() + " " + detallePresupuesto.Producto.Marca.ToString(),
                     detallePresupuesto.PrecioUnitario.ToString(System.Globalization.CultureInfo.InvariantCulture),
                     detallePresupuesto.Cantidad.ToString(),
                     (detallePresupuesto.PrecioUnitario * detallePresupuesto.Cantidad).ToString(System.Globalization.CultureInfo.InvariantCulture)

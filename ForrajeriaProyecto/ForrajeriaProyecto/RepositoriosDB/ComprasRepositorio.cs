@@ -86,7 +86,7 @@ namespace ForrajeriaProyecto.RepositoriosDB
         public List<DetalleCompra> ObtenerDetalles(long id)
         {
             List<DetalleCompra> detalleCompras = new List<DetalleCompra>();
-            var SentenciaSql = $"SELECT dc.*, p.nombre FROM DetalleCompras dc LEFT JOIN Productos p ON p.id_producto = dc.idProducto where dc.nroOrden = {id}";
+            var SentenciaSql = $"SELECT dc.*, p.descripcion FROM DetalleCompras dc LEFT JOIN Productos p ON p.id_producto = dc.idProducto where dc.nroOrden = {id}";
             var tabla = DBHelper.GetDBHelper().ConsultaSQL(SentenciaSql);
             foreach (DataRow fila in tabla.Rows)
             {
@@ -101,9 +101,9 @@ namespace ForrajeriaProyecto.RepositoriosDB
             detalleCompra.Id = Convert.ToInt32(fila["id"]);
             var prod = new Producto();
             prod.Id = Convert.ToInt32(fila["idProducto"]);
-            if (fila.Table.Columns.Contains("nombre"))
-                if (!fila.IsNull("nombre"))
-                    prod.Nombre = fila["nombre"].ToString();
+            if (fila.Table.Columns.Contains("descripcion"))
+                if (!fila.IsNull("descripcion"))
+                    prod.Descripcion = fila["descripcion"].ToString();
             detalleCompra.Producto = prod;
             detalleCompra.Cantidad = Convert.ToInt32(fila["cantidad"]);
             detalleCompra.PrecioUnitario = Convert.ToSingle(fila["precioUnitario"]);

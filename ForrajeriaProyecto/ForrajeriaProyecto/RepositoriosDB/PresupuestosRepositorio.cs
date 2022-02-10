@@ -98,7 +98,7 @@ namespace ForrajeriaProyecto.RepositoriosDB
         public List<DetallePresupuesto> GetDetalles(long id)
         {
             List<DetallePresupuesto> detallePresupuestos = new List<DetallePresupuesto>();
-            var SentenciaSql = $"SELECT dp.*, p.nombre FROM DetallePresupuestos dp LEFT JOIN Productos p ON p.id_producto = dp.idProducto where dp.idPresupuesto = {id}";
+            var SentenciaSql = $"SELECT dp.*, p.descripcion, p.marca FROM DetallePresupuestos dp LEFT JOIN Productos p ON p.id_producto = dp.idProducto where dp.idPresupuesto = {id}";
             var tabla = DBHelper.GetDBHelper().ConsultaSQL(SentenciaSql);
             foreach (DataRow fila in tabla.Rows)
             {
@@ -114,9 +114,10 @@ namespace ForrajeriaProyecto.RepositoriosDB
             detallePresupuesto.Id = Convert.ToInt32(fila["id"]);
             var prod = new Producto();
             prod.Id = Convert.ToInt32(fila["idProducto"]);
-            if (fila.Table.Columns.Contains("nombre"))
-                if (!fila.IsNull("nombre"))
-                    prod.Nombre = fila["nombre"].ToString();
+            if (fila.Table.Columns.Contains("descripcion") && fila.Table.Columns.Contains("marca"))
+                if (!fila.IsNull("descripcion"))
+                    prod.Descripcion = fila["descripcion"].ToString();
+                    prod.Marca = fila["marca"].ToString();
             detallePresupuesto.Producto = prod;
             detallePresupuesto.Cantidad = Convert.ToInt32(fila["Cantidad"]);
             detallePresupuesto.PrecioUnitario = Convert.ToSingle(fila["PrecioUnitario"]);

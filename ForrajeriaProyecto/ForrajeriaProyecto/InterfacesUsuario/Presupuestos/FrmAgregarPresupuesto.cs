@@ -140,7 +140,7 @@ namespace ForrajeriaProyecto.InterfacesUsuario.Presupuestos
             var fila = new string[]
                 {
                     productoCargado.Id.ToString(),
-                    productoCargado.Descripcion,
+                    productoCargado.Descripcion + " " + productoCargado.Marca,
                     productoCargado.Precio.ToString(System.Globalization.CultureInfo.InvariantCulture),
                     TxtCantidad.Text.ToString(),
                     (Convert.ToInt32(TxtCantidad.Text) * Convert.ToSingle(productoCargado.Precio)).ToString(System.Globalization.CultureInfo.InvariantCulture)
