@@ -1,0 +1,530 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F74D4BF8-BB1A-49D1-96A7-B843CBCDF311}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ForrajeriaProyecto</RootNamespace>
+    <AssemblyName>ForrajeriaProyecto</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1484.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1484.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1484.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1484.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebDesign, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.WebForms.150.1484.0\lib\net40\Microsoft.ReportViewer.WebDesign.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.WebForms.150.1484.0\lib\net40\Microsoft.ReportViewer.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1484.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.1016.290\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entidades\Compra.cs" />
+    <Compile Include="Entidades\DetalleCompra.cs" />
+    <Compile Include="Entidades\DetallePresupuesto.cs" />
+    <Compile Include="Entidades\DetalleVenta.cs" />
+    <Compile Include="Entidades\Presupuesto.cs" />
+    <Compile Include="Entidades\Producto.cs" />
+    <Compile Include="Entidades\Proveedor.cs" />
+    <Compile Include="Entidades\TipoDocumento.cs" />
+    <Compile Include="Entidades\Venta.cs" />
+    <Compile Include="Entidades\VentaFiltros.cs" />
+    <Compile Include="InterfacesUsuario\Compras\FrmAgregarCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Compras\FrmAgregarCompra.Designer.cs">
+      <DependentUpon>FrmAgregarCompra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Compras\FrmCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Compras\FrmCompras.Designer.cs">
+      <DependentUpon>FrmCompras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Compras\FrmDetalleCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Compras\FrmDetalleCompra.Designer.cs">
+      <DependentUpon>FrmDetalleCompra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Compras\FrmSeleccionarProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Compras\FrmSeleccionarProveedor.Designer.cs">
+      <DependentUpon>FrmSeleccionarProveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Presupuestos\FrmAgregarPresupuesto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Presupuestos\FrmAgregarPresupuesto.Designer.cs">
+      <DependentUpon>FrmAgregarPresupuesto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Presupuestos\FrmDetallePresupuesto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Presupuestos\FrmDetallePresupuesto.Designer.cs">
+      <DependentUpon>FrmDetallePresupuesto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Presupuestos\FrmPresupuestos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Presupuestos\FrmPresupuestos.Designer.cs">
+      <DependentUpon>FrmPresupuestos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Productos\FrmAgregarProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Productos\FrmAgregarProducto.Designer.cs">
+      <DependentUpon>FrmAgregarProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Productos\FrmConsultarProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Productos\FrmConsultarProducto.Designer.cs">
+      <DependentUpon>FrmConsultarProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Productos\FrmConsultarProductoPresupuesto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Productos\FrmConsultarProductoPresupuesto.Designer.cs">
+      <DependentUpon>FrmConsultarProductoPresupuesto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Productos\FrmProductoXProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Productos\FrmProductoXProveedor.Designer.cs">
+      <DependentUpon>FrmProductoXProveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Reportes\DSVentasReportes.cs">
+      <DependentUpon>DSVentasReportes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Reportes\DSVentasReportes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSVentasReportes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Reportes\Estadisticas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Reportes\Estadisticas.Designer.cs">
+      <DependentUpon>Estadisticas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Reportes\FrmReporteCompraPorProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Reportes\FrmReporteCompraPorProveedor.Designer.cs">
+      <DependentUpon>FrmReporteCompraPorProveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Reportes\FrmReportesCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Reportes\FrmReportesCompras.Designer.cs">
+      <DependentUpon>FrmReportesCompras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Reportes\FrmReportesClientesMonto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Reportes\FrmReportesClientesMonto.Designer.cs">
+      <DependentUpon>FrmReportesClientesMonto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Reportes\FrmReportesProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Reportes\FrmReportesProductos.Designer.cs">
+      <DependentUpon>FrmReportesProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Reportes\FrmReporteStockPorProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Reportes\FrmReporteStockPorProducto.Designer.cs">
+      <DependentUpon>FrmReporteStockPorProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Reportes\FrmReportesVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Reportes\FrmReportesVentas.Designer.cs">
+      <DependentUpon>FrmReportesVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Reportes\ReportesPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Reportes\ReportesPrincipal.Designer.cs">
+      <DependentUpon>ReportesPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Usuarios\FrmBajaUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Usuarios\FrmBajaUsuario.Designer.cs">
+      <DependentUpon>FrmBajaUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Usuarios\FrmModificarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Usuarios\FrmModificarUsuario.Designer.cs">
+      <DependentUpon>FrmModificarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Usuarios\FrmUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Usuarios\FrmUsuarios.Designer.cs">
+      <DependentUpon>FrmUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Usuarios\RegistrarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Usuarios\RegistrarUsuario.Designer.cs">
+      <DependentUpon>RegistrarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Ventas\FrmAgregarVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Ventas\FrmAgregarVenta.Designer.cs">
+      <DependentUpon>FrmAgregarVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Ventas\FrmDetalleVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Ventas\FrmDetalleVenta.Designer.cs">
+      <DependentUpon>FrmDetalleVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Ventas\FrmVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Ventas\FrmVentas.Designer.cs">
+      <DependentUpon>FrmVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Clientes\FrmBajaCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Clientes\FrmBajaCliente.Designer.cs">
+      <DependentUpon>FrmBajaCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Clientes\FrmModificarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Clientes\FrmModificarCliente.Designer.cs">
+      <DependentUpon>FrmModificarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Clientes\FrmRegistrarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Clientes\FrmRegistrarCliente.Designer.cs">
+      <DependentUpon>FrmRegistrarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Productos\FrmBajaProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Productos\FrmBajaProducto.Designer.cs">
+      <DependentUpon>FrmBajaProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Productos\FrmModificarProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Productos\FrmModificarProducto.Designer.cs">
+      <DependentUpon>FrmModificarProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Productos\FrmProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Productos\FrmProductos.Designer.cs">
+      <DependentUpon>FrmProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Proveedores\FrmBajaProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Proveedores\FrmBajaProveedor.Designer.cs">
+      <DependentUpon>FrmBajaProveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Proveedores\FrmModificarProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Proveedores\FrmModificarProveedor.Designer.cs">
+      <DependentUpon>FrmModificarProveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Proveedores\FrmProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Proveedores\FrmProveedores.Designer.cs">
+      <DependentUpon>FrmProveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Proveedores\FrmRegistrarProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Proveedores\FrmRegistrarProveedor.Designer.cs">
+      <DependentUpon>FrmRegistrarProveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RepositoriosDB\ComprasRepositorio.cs" />
+    <Compile Include="RepositoriosDB\PresupuestosRepositorio.cs" />
+    <Compile Include="RepositoriosDB\ProductosRepositorio.cs" />
+    <Compile Include="RepositoriosDB\ProveedoresRepositorio.cs" />
+    <Compile Include="RepositoriosDB\ReportesRepositorio.cs" />
+    <Compile Include="RepositoriosDB\TipoDocumentosRepositorio.cs" />
+    <Compile Include="RepositoriosDB\VentasRepositorio.cs" />
+    <Compile Include="Servicios\ClientesServicio.cs" />
+    <Compile Include="RepositoriosDB\ClientesRepositorio.cs" />
+    <Compile Include="Entidades\Cliente.cs" />
+    <Compile Include="InterfacesUsuario\Clientes\FrmClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterfacesUsuario\Clientes\FrmClientes.Designer.cs">
+      <DependentUpon>FrmClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RepositoriosDB\DBHelper.cs" />
+    <Compile Include="Entidades\Usuario.cs" />
+    <Compile Include="InterfacesUsuario\FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterfacesUsuario\FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterfacesUsuario\FrmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterfacesUsuario\FrmPrincipal.Designer.cs">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RepositoriosDB\UsuariosRepositorio.cs" />
+    <Compile Include="Servicios\ComprasServicio.cs" />
+    <Compile Include="Servicios\PresupuestosServicio.cs" />
+    <Compile Include="Servicios\ProductosServicio.cs" />
+    <Compile Include="Servicios\ProveedoresServicio.cs" />
+    <Compile Include="Servicios\TiposDocumentoServicio.cs" />
+    <Compile Include="Servicios\UsuariosServicio.cs" />
+    <Compile Include="Servicios\VentasServicio.cs" />
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <Compile Include="Utils\FormUtils.cs" />
+    <EmbeddedResource Include="InterfacesUsuario\Compras\FrmAgregarCompra.resx">
+      <DependentUpon>FrmAgregarCompra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfacesUsuario\Compras\FrmCompras.resx">
+      <DependentUpon>FrmCompras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfacesUsuario\Compras\FrmDetalleCompra.resx">
+      <DependentUpon>FrmDetalleCompra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfacesUsuario\Compras\FrmSeleccionarProveedor.resx">
+      <DependentUpon>FrmSeleccionarProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfacesUsuario\Presupuestos\FrmAgregarPresupuesto.resx">
+      <DependentUpon>FrmAgregarPresupuesto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfacesUsuario\Presupuestos\FrmDetallePresupuesto.resx">
+      <DependentUpon>FrmDetallePresupuesto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfacesUsuario\Presupuestos\FrmPresupuestos.resx">
+      <DependentUpon>FrmPresupuestos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfacesUsuario\Productos\FrmAgregarProducto.resx">
+      <DependentUpon>FrmAgregarProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfacesUsuario\Productos\FrmConsultarProducto.resx">
+      <DependentUpon>FrmConsultarProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfacesUsuario\Productos\FrmConsultarProductoPresupuesto.resx">
+      <DependentUpon>FrmConsultarProductoPresupuesto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfacesUsuario\Productos\FrmProductoXProveedor.resx">
+      <DependentUpon>FrmProductoXProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfacesUsuario\Reportes\Estadisticas.rdlc" />
+    <EmbeddedResource Include="InterfacesUsuario\Reportes\Estadisticas.resx">
+      <DependentUpon>Estadisticas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfacesUsuario\Reportes\FrmReporteCompraPorProveedor.resx">
+      <DependentUpon>FrmReporteCompraPorProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfacesUsuario\Reportes\FrmReportesClientesMonto.resx">
+      <DependentUpon>FrmReportesClientesMonto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfacesUsuario\Reportes\FrmReportesCompras.resx">
+      <DependentUpon>FrmReportesCompras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfacesUsuario\Reportes\FrmReportesProductos.resx">
+      <DependentUpon>FrmReportesProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfacesUsuario\Reportes\FrmReporteStockPorProducto.resx">
+      <DependentUpon>FrmReporteStockPorProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfacesUsuario\Reportes\FrmReportesVentas.resx">
+      <DependentUpon>FrmReportesVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfacesUsuario\Reportes\ReporteCompraPorProveedor.rdlc" />
+    <EmbeddedResource Include="InterfacesUsuario\Reportes\ReporteCompras.rdlc" />
+    <EmbeddedResource Include="InterfacesUsuario\Reportes\ReporteMontoPorCliente.rdlc" />
+    <EmbeddedResource Include="InterfacesUsuario\Reportes\ReporteProductos.rdlc" />
+    <EmbeddedResource Include="InterfacesUsuario\Reportes\ReportesPrincipal.resx">
+      <DependentUpon>ReportesPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfacesUsuario\Reportes\ReporteStockPorProducto.rdlc" />
+    <EmbeddedResource Include="InterfacesUsuario\Reportes\ReporteVentasPorCliente.rdlc" />
+    <EmbeddedResource Include="InterfacesUsuario\Usuarios\FrmBajaUsuario.resx">
+      <DependentUpon>FrmBajaUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfacesUsuario\Usuarios\FrmModificarUsuario.resx">
+      <DependentUpon>FrmModificarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfacesUsuario\Usuarios\FrmUsuarios.resx">
+      <DependentUpon>FrmUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfacesUsuario\Usuarios\RegistrarUsuario.resx">
+      <DependentUpon>RegistrarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfacesUsuario\Ventas\FrmAgregarVenta.resx">
+      <DependentUpon>FrmAgregarVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfacesUsuario\Ventas\FrmDetalleVenta.resx">
+      <DependentUpon>FrmDetalleVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfacesUsuario\Ventas\FrmVentas.resx">
+      <DependentUpon>FrmVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfacesUsuario\Clientes\FrmBajaCliente.resx">
+      <DependentUpon>FrmBajaCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfacesUsuario\Clientes\FrmClientes.resx">
+      <DependentUpon>FrmClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfacesUsuario\Clientes\FrmModificarCliente.resx">
+      <DependentUpon>FrmModificarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfacesUsuario\Clientes\FrmRegistrarCliente.es-AR.resx">
+      <DependentUpon>FrmRegistrarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfacesUsuario\Clientes\FrmRegistrarCliente.resx">
+      <DependentUpon>FrmRegistrarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfacesUsuario\FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfacesUsuario\FrmPrincipal.resx">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfacesUsuario\Productos\FrmBajaProducto.resx">
+      <DependentUpon>FrmBajaProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfacesUsuario\Productos\FrmModificarProducto.resx">
+      <DependentUpon>FrmModificarProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfacesUsuario\Productos\FrmProductos.resx">
+      <DependentUpon>FrmProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfacesUsuario\Proveedores\FrmBajaProveedor.resx">
+      <DependentUpon>FrmBajaProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfacesUsuario\Proveedores\FrmModificarProveedor.resx">
+      <DependentUpon>FrmModificarProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfacesUsuario\Proveedores\FrmProveedores.resx">
+      <DependentUpon>FrmProveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfacesUsuario\Proveedores\FrmRegistrarProveedor.resx">
+      <DependentUpon>FrmRegistrarProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="InterfacesUsuario\Reportes\DSVentasReportes.xsc">
+      <DependentUpon>DSVentasReportes.xsd</DependentUpon>
+    </None>
+    <None Include="InterfacesUsuario\Reportes\DSVentasReportes.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSVentasReportes.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="InterfacesUsuario\Reportes\DSVentasReportes.xss">
+      <DependentUpon>DSVentasReportes.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\accept.png" />
+    <None Include="Resources\search %281%29.png" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

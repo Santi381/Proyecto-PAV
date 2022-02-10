@@ -1,0 +1,156 @@
+C:\Users\Maxi\Desktop\VeterinariaPAV\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\ForrajeriaProyecto.exe.config
+C:\Users\Maxi\Desktop\VeterinariaPAV\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\ForrajeriaProyecto.exe
+C:\Users\Maxi\Desktop\VeterinariaPAV\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\ForrajeriaProyecto.pdb
+C:\Users\Maxi\Desktop\VeterinariaPAV\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\es-AR\ForrajeriaProyecto.resources.dll
+C:\Users\Maxi\Desktop\VeterinariaPAV\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.csproj.AssemblyReference.cache
+C:\Users\Maxi\Desktop\VeterinariaPAV\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.InterfacesUsuario.Clientes.FrmBajaCliente.resources
+C:\Users\Maxi\Desktop\VeterinariaPAV\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.InterfacesUsuario.Clientes.FrmClientes.resources
+C:\Users\Maxi\Desktop\VeterinariaPAV\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.InterfacesUsuario.Clientes.FrmModificarCliente.resources
+C:\Users\Maxi\Desktop\VeterinariaPAV\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.InterfacesUsuario.Clientes.FrmRegistrarCliente.resources
+C:\Users\Maxi\Desktop\VeterinariaPAV\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.InterfacesUsuario.FrmLogin.resources
+C:\Users\Maxi\Desktop\VeterinariaPAV\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.Principal.resources
+C:\Users\Maxi\Desktop\VeterinariaPAV\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\Proyecto.Form7.resources
+C:\Users\Maxi\Desktop\VeterinariaPAV\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\Proyecto.Form6.resources
+C:\Users\Maxi\Desktop\VeterinariaPAV\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.Properties.Resources.resources
+C:\Users\Maxi\Desktop\VeterinariaPAV\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.InterfacesUsuario.Clientes.FrmRegistrarCliente.es-AR.resources
+C:\Users\Maxi\Desktop\VeterinariaPAV\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.csproj.GenerateResource.cache
+C:\Users\Maxi\Desktop\VeterinariaPAV\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.csproj.CoreCompileInputs.cache
+C:\Users\Maxi\Desktop\VeterinariaPAV\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\es-AR\ForrajeriaProyecto.resources.dll
+C:\Users\Maxi\Desktop\VeterinariaPAV\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.exe
+C:\Users\Maxi\Desktop\VeterinariaPAV\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.pdb
+C:\Users\Maxi\Desktop\VeterinariaPAV\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.InterfacesUsuario.Productos.FrmProductos.resources
+C:\Users\Maxi\Desktop\VeterinariaPAV\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.InterfacesUsuario.Productos.FrmRegistrarProducto.resources
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\ForrajeriaProyecto.exe.config
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\ForrajeriaProyecto.exe
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\ForrajeriaProyecto.pdb
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\es-AR\ForrajeriaProyecto.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\Microsoft.ReportViewer.WebDesign.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\Microsoft.ReportViewer.WebForms.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\EnvDTE.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\stdole.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\Microsoft.MSXML.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\de\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\es\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\it\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\de\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\es\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\fr\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\it\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\ja\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\ko\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\pt\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\ru\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.csproj.AssemblyReference.cache
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.InterfacesUsuario.Productos.FrmAgregarProducto.resources
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.InterfacesUsuario.Productos.FrmConsultarProducto.resources
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.InterfacesUsuario.Reportes.FrmReportesVentas.resources
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.InterfacesUsuario.Reportes.ReportesPrincipal.resources
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.InterfacesUsuario.Ventas.FrmAgregarVenta.resources
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.InterfacesUsuario.Ventas.FrmDetalleVenta.resources
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.FrmVentas.resources
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.InterfacesUsuario.Clientes.FrmBajaCliente.resources
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.InterfacesUsuario.Clientes.FrmClientes.resources
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.InterfacesUsuario.Clientes.FrmModificarCliente.resources
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.InterfacesUsuario.Clientes.FrmRegistrarCliente.resources
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.InterfacesUsuario.FrmLogin.resources
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.Principal.resources
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.InterfacesUsuario.Productos.FrmBajaProducto.resources
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.InterfacesUsuario.Productos.FrmModificarProducto.resources
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.InterfacesUsuario.Productos.FrmProductos.resources
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.InterfacesUsuario.Proveedores.FrmBajaProveedor.resources
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.InterfacesUsuario.Proveedores.FrmModificarProveedor.resources
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.InterfacesUsuario.Proveedores.FrmProveedores.resources
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.InterfacesUsuario.Proveedores.FrmRegistrarProveedor.resources
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.Properties.Resources.resources
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.InterfacesUsuario.Clientes.FrmRegistrarCliente.es-AR.resources
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.csproj.GenerateResource.cache
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\RdlCompile.cache
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\RdlCompile.compiled
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.csproj.CoreCompileInputs.cache
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\es-AR\ForrajeriaProyecto.resources.dll
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.csproj.CopyComplete
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.exe
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.pdb
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.InterfacesUsuario.Reportes.FrmReportesProductos.resources
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.InterfacesUsuario.Reportes.FrmReportesClientesMonto.resources
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.InterfacesUsuario.Compras.FrmAgregarCompra.resources
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.InterfacesUsuario.Compras.FrmCompras.resources
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.InterfacesUsuario.Compras.FrmDetalleCompra.resources
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.InterfacesUsuario.Compras.FrmSeleccionarProveedor.resources
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.InterfacesUsuario.Presupuestos.FrmPresupuestos.resources
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.InterfacesUsuario.Productos.FrmProductoXProveedor.resources
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.InterfacesUsuario.Usuarios.FrmBajaUsuario.resources
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.InterfacesUsuario.Usuarios.FrmModificarUsuario.resources
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.InterfacesUsuario.Usuarios.FrmUsuarios.resources
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.InterfacesUsuario.Usuarios.RegistrarUsuario.resources
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.InterfacesUsuario.Presupuestos.FrmAgregarPresupuesto.resources
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.InterfacesUsuario.Presupuestos.FrmDetallePresupuesto.resources
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.InterfacesUsuario.Productos.FrmConsultarProductoPresupuesto.resources
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.InterfacesUsuario.Reportes.Estadísticas.resources
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.InterfacesUsuario.Reportes.FrmReporteCompraPorProveedor.resources
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.InterfacesUsuario.Reportes.FrmReportesCompras.resources
+D:\Escritorio\PAV 1\TPI\pav-3k2-2021-5\ForrajeriaProyecto\ForrajeriaProyecto\obj\Debug\ForrajeriaProyecto.InterfacesUsuario.Reportes.FrmReporteStockPorProducto.resources
