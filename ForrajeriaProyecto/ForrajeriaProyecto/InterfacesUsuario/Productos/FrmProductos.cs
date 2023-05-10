@@ -96,6 +96,7 @@ namespace ForrajeriaProyecto.InterfacesUsuario.Productos
         {
             var frmAgregarProducto = new FrmAgregarProducto();
             frmAgregarProducto.ShowDialog();
+            ConsultarProductos();
         }
 
         private void BtnModificarProducto_Click(object sender, EventArgs e)

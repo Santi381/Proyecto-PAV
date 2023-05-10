@@ -8,7 +8,7 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>ForrajeriaProyecto</RootNamespace>
     <AssemblyName>ForrajeriaProyecto</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -81,47 +81,69 @@
     <Compile Include="Entidades\TipoDocumento.cs" />
     <Compile Include="Entidades\Venta.cs" />
     <Compile Include="Entidades\VentaFiltros.cs" />
-    <Compile Include="InterfacesUsuario\Compras\FrmAgregarCompra.cs" />
+    <Compile Include="InterfacesUsuario\Compras\FrmAgregarCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="InterfacesUsuario\Compras\FrmAgregarCompra.Designer.cs">
       <DependentUpon>FrmAgregarCompra.cs</DependentUpon>
     </Compile>
-    <Compile Include="InterfacesUsuario\Compras\FrmCompras.cs" />
+    <Compile Include="InterfacesUsuario\Compras\FrmCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="InterfacesUsuario\Compras\FrmCompras.Designer.cs">
       <DependentUpon>FrmCompras.cs</DependentUpon>
     </Compile>
-    <Compile Include="InterfacesUsuario\Compras\FrmDetalleCompra.cs" />
+    <Compile Include="InterfacesUsuario\Compras\FrmDetalleCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="InterfacesUsuario\Compras\FrmDetalleCompra.Designer.cs">
       <DependentUpon>FrmDetalleCompra.cs</DependentUpon>
     </Compile>
-    <Compile Include="InterfacesUsuario\Compras\FrmSeleccionarProveedor.cs" />
+    <Compile Include="InterfacesUsuario\Compras\FrmSeleccionarProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="InterfacesUsuario\Compras\FrmSeleccionarProveedor.Designer.cs">
       <DependentUpon>FrmSeleccionarProveedor.cs</DependentUpon>
     </Compile>
-    <Compile Include="InterfacesUsuario\Presupuestos\FrmAgregarPresupuesto.cs" />
+    <Compile Include="InterfacesUsuario\Presupuestos\FrmAgregarPresupuesto.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="InterfacesUsuario\Presupuestos\FrmAgregarPresupuesto.Designer.cs">
       <DependentUpon>FrmAgregarPresupuesto.cs</DependentUpon>
     </Compile>
-    <Compile Include="InterfacesUsuario\Presupuestos\FrmDetallePresupuesto.cs" />
+    <Compile Include="InterfacesUsuario\Presupuestos\FrmDetallePresupuesto.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="InterfacesUsuario\Presupuestos\FrmDetallePresupuesto.Designer.cs">
       <DependentUpon>FrmDetallePresupuesto.cs</DependentUpon>
     </Compile>
-    <Compile Include="InterfacesUsuario\Presupuestos\FrmPresupuestos.cs" />
+    <Compile Include="InterfacesUsuario\Presupuestos\FrmPresupuestos.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="InterfacesUsuario\Presupuestos\FrmPresupuestos.Designer.cs">
       <DependentUpon>FrmPresupuestos.cs</DependentUpon>
     </Compile>
-    <Compile Include="InterfacesUsuario\Productos\FrmAgregarProducto.cs" />
+    <Compile Include="InterfacesUsuario\Productos\FrmAgregarProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="InterfacesUsuario\Productos\FrmAgregarProducto.Designer.cs">
       <DependentUpon>FrmAgregarProducto.cs</DependentUpon>
     </Compile>
-    <Compile Include="InterfacesUsuario\Productos\FrmConsultarProducto.cs" />
+    <Compile Include="InterfacesUsuario\Productos\FrmConsultarProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="InterfacesUsuario\Productos\FrmConsultarProducto.Designer.cs">
       <DependentUpon>FrmConsultarProducto.cs</DependentUpon>
     </Compile>
-    <Compile Include="InterfacesUsuario\Productos\FrmConsultarProductoPresupuesto.cs" />
+    <Compile Include="InterfacesUsuario\Productos\FrmConsultarProductoPresupuesto.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="InterfacesUsuario\Productos\FrmConsultarProductoPresupuesto.Designer.cs">
       <DependentUpon>FrmConsultarProductoPresupuesto.cs</DependentUpon>
     </Compile>
-    <Compile Include="InterfacesUsuario\Productos\FrmProductoXProveedor.cs" />
+    <Compile Include="InterfacesUsuario\Productos\FrmProductoXProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="InterfacesUsuario\Productos\FrmProductoXProveedor.Designer.cs">
       <DependentUpon>FrmProductoXProveedor.cs</DependentUpon>
     </Compile>
@@ -133,103 +155,153 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DSVentasReportes.xsd</DependentUpon>
     </Compile>
-    <Compile Include="InterfacesUsuario\Reportes\Estadisticas.cs" />
+    <Compile Include="InterfacesUsuario\Reportes\Estadisticas.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="InterfacesUsuario\Reportes\Estadisticas.Designer.cs">
       <DependentUpon>Estadisticas.cs</DependentUpon>
     </Compile>
-    <Compile Include="InterfacesUsuario\Reportes\FrmReporteCompraPorProveedor.cs" />
+    <Compile Include="InterfacesUsuario\Reportes\FrmReporteCompraPorProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="InterfacesUsuario\Reportes\FrmReporteCompraPorProveedor.Designer.cs">
       <DependentUpon>FrmReporteCompraPorProveedor.cs</DependentUpon>
     </Compile>
-    <Compile Include="InterfacesUsuario\Reportes\FrmReportesCompras.cs" />
+    <Compile Include="InterfacesUsuario\Reportes\FrmReportesCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="InterfacesUsuario\Reportes\FrmReportesCompras.Designer.cs">
       <DependentUpon>FrmReportesCompras.cs</DependentUpon>
     </Compile>
-    <Compile Include="InterfacesUsuario\Reportes\FrmReportesClientesMonto.cs" />
+    <Compile Include="InterfacesUsuario\Reportes\FrmReportesClientesMonto.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="InterfacesUsuario\Reportes\FrmReportesClientesMonto.Designer.cs">
       <DependentUpon>FrmReportesClientesMonto.cs</DependentUpon>
     </Compile>
-    <Compile Include="InterfacesUsuario\Reportes\FrmReportesProductos.cs" />
+    <Compile Include="InterfacesUsuario\Reportes\FrmReportesProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="InterfacesUsuario\Reportes\FrmReportesProductos.Designer.cs">
       <DependentUpon>FrmReportesProductos.cs</DependentUpon>
     </Compile>
-    <Compile Include="InterfacesUsuario\Reportes\FrmReporteStockPorProducto.cs" />
+    <Compile Include="InterfacesUsuario\Reportes\FrmReporteStockPorProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="InterfacesUsuario\Reportes\FrmReporteStockPorProducto.Designer.cs">
       <DependentUpon>FrmReporteStockPorProducto.cs</DependentUpon>
     </Compile>
-    <Compile Include="InterfacesUsuario\Reportes\FrmReportesVentas.cs" />
+    <Compile Include="InterfacesUsuario\Reportes\FrmReportesVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="InterfacesUsuario\Reportes\FrmReportesVentas.Designer.cs">
       <DependentUpon>FrmReportesVentas.cs</DependentUpon>
     </Compile>
-    <Compile Include="InterfacesUsuario\Reportes\ReportesPrincipal.cs" />
+    <Compile Include="InterfacesUsuario\Reportes\ReportesPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="InterfacesUsuario\Reportes\ReportesPrincipal.Designer.cs">
       <DependentUpon>ReportesPrincipal.cs</DependentUpon>
     </Compile>
-    <Compile Include="InterfacesUsuario\Usuarios\FrmBajaUsuario.cs" />
+    <Compile Include="InterfacesUsuario\Usuarios\FrmBajaUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="InterfacesUsuario\Usuarios\FrmBajaUsuario.Designer.cs">
       <DependentUpon>FrmBajaUsuario.cs</DependentUpon>
     </Compile>
-    <Compile Include="InterfacesUsuario\Usuarios\FrmModificarUsuario.cs" />
+    <Compile Include="InterfacesUsuario\Usuarios\FrmModificarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="InterfacesUsuario\Usuarios\FrmModificarUsuario.Designer.cs">
       <DependentUpon>FrmModificarUsuario.cs</DependentUpon>
     </Compile>
-    <Compile Include="InterfacesUsuario\Usuarios\FrmUsuarios.cs" />
+    <Compile Include="InterfacesUsuario\Usuarios\FrmUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="InterfacesUsuario\Usuarios\FrmUsuarios.Designer.cs">
       <DependentUpon>FrmUsuarios.cs</DependentUpon>
     </Compile>
-    <Compile Include="InterfacesUsuario\Usuarios\RegistrarUsuario.cs" />
+    <Compile Include="InterfacesUsuario\Usuarios\RegistrarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="InterfacesUsuario\Usuarios\RegistrarUsuario.Designer.cs">
       <DependentUpon>RegistrarUsuario.cs</DependentUpon>
     </Compile>
-    <Compile Include="InterfacesUsuario\Ventas\FrmAgregarVenta.cs" />
+    <Compile Include="InterfacesUsuario\Ventas\FrmAgregarVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="InterfacesUsuario\Ventas\FrmAgregarVenta.Designer.cs">
       <DependentUpon>FrmAgregarVenta.cs</DependentUpon>
     </Compile>
-    <Compile Include="InterfacesUsuario\Ventas\FrmDetalleVenta.cs" />
+    <Compile Include="InterfacesUsuario\Ventas\FrmDetalleVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="InterfacesUsuario\Ventas\FrmDetalleVenta.Designer.cs">
       <DependentUpon>FrmDetalleVenta.cs</DependentUpon>
     </Compile>
-    <Compile Include="InterfacesUsuario\Ventas\FrmVentas.cs" />
+    <Compile Include="InterfacesUsuario\Ventas\FrmVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="InterfacesUsuario\Ventas\FrmVentas.Designer.cs">
       <DependentUpon>FrmVentas.cs</DependentUpon>
     </Compile>
-    <Compile Include="InterfacesUsuario\Clientes\FrmBajaCliente.cs" />
+    <Compile Include="InterfacesUsuario\Clientes\FrmBajaCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="InterfacesUsuario\Clientes\FrmBajaCliente.Designer.cs">
       <DependentUpon>FrmBajaCliente.cs</DependentUpon>
     </Compile>
-    <Compile Include="InterfacesUsuario\Clientes\FrmModificarCliente.cs" />
+    <Compile Include="InterfacesUsuario\Clientes\FrmModificarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="InterfacesUsuario\Clientes\FrmModificarCliente.Designer.cs">
       <DependentUpon>FrmModificarCliente.cs</DependentUpon>
     </Compile>
-    <Compile Include="InterfacesUsuario\Clientes\FrmRegistrarCliente.cs" />
+    <Compile Include="InterfacesUsuario\Clientes\FrmRegistrarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="InterfacesUsuario\Clientes\FrmRegistrarCliente.Designer.cs">
       <DependentUpon>FrmRegistrarCliente.cs</DependentUpon>
     </Compile>
-    <Compile Include="InterfacesUsuario\Productos\FrmBajaProducto.cs" />
+    <Compile Include="InterfacesUsuario\Productos\FrmBajaProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="InterfacesUsuario\Productos\FrmBajaProducto.Designer.cs">
       <DependentUpon>FrmBajaProducto.cs</DependentUpon>
     </Compile>
-    <Compile Include="InterfacesUsuario\Productos\FrmModificarProducto.cs" />
+    <Compile Include="InterfacesUsuario\Productos\FrmModificarProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="InterfacesUsuario\Productos\FrmModificarProducto.Designer.cs">
       <DependentUpon>FrmModificarProducto.cs</DependentUpon>
     </Compile>
-    <Compile Include="InterfacesUsuario\Productos\FrmProductos.cs" />
+    <Compile Include="InterfacesUsuario\Productos\FrmProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="InterfacesUsuario\Productos\FrmProductos.Designer.cs">
       <DependentUpon>FrmProductos.cs</DependentUpon>
     </Compile>
-    <Compile Include="InterfacesUsuario\Proveedores\FrmBajaProveedor.cs" />
+    <Compile Include="InterfacesUsuario\Proveedores\FrmBajaProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="InterfacesUsuario\Proveedores\FrmBajaProveedor.Designer.cs">
       <DependentUpon>FrmBajaProveedor.cs</DependentUpon>
     </Compile>
-    <Compile Include="InterfacesUsuario\Proveedores\FrmModificarProveedor.cs" />
+    <Compile Include="InterfacesUsuario\Proveedores\FrmModificarProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="InterfacesUsuario\Proveedores\FrmModificarProveedor.Designer.cs">
       <DependentUpon>FrmModificarProveedor.cs</DependentUpon>
     </Compile>
-    <Compile Include="InterfacesUsuario\Proveedores\FrmProveedores.cs" />
+    <Compile Include="InterfacesUsuario\Proveedores\FrmProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="InterfacesUsuario\Proveedores\FrmProveedores.Designer.cs">
       <DependentUpon>FrmProveedores.cs</DependentUpon>
     </Compile>
-    <Compile Include="InterfacesUsuario\Proveedores\FrmRegistrarProveedor.cs" />
+    <Compile Include="InterfacesUsuario\Proveedores\FrmRegistrarProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="InterfacesUsuario\Proveedores\FrmRegistrarProveedor.Designer.cs">
       <DependentUpon>FrmRegistrarProveedor.cs</DependentUpon>
     </Compile>
@@ -243,17 +315,23 @@
     <Compile Include="Servicios\ClientesServicio.cs" />
     <Compile Include="RepositoriosDB\ClientesRepositorio.cs" />
     <Compile Include="Entidades\Cliente.cs" />
-    <Compile Include="InterfacesUsuario\Clientes\FrmClientes.cs" />
+    <Compile Include="InterfacesUsuario\Clientes\FrmClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="InterfacesUsuario\Clientes\FrmClientes.Designer.cs">
       <DependentUpon>FrmClientes.cs</DependentUpon>
     </Compile>
     <Compile Include="RepositoriosDB\DBHelper.cs" />
     <Compile Include="Entidades\Usuario.cs" />
-    <Compile Include="InterfacesUsuario\FrmLogin.cs" />
+    <Compile Include="InterfacesUsuario\FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="InterfacesUsuario\FrmLogin.Designer.cs">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="InterfacesUsuario\FrmPrincipal.cs" />
+    <Compile Include="InterfacesUsuario\FrmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="InterfacesUsuario\FrmPrincipal.Designer.cs">
       <DependentUpon>FrmPrincipal.cs</DependentUpon>
     </Compile>
